@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core/dao"
 )
 
 const (

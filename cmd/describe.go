@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core/dao"
 )
 
 func describeCmd(config *dao.Config, configErr *error) *cobra.Command {

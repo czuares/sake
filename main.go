@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/alajmo/sake/cmd"
+	"github.com/czuares/sake/cmd"
 )
 
 func main() {

@@ -1,5 +1,5 @@
 NAME    := sake
-PACKAGE := github.com/alajmo/$(NAME)
+PACKAGE := github.com/czuares/$(NAME)
 DATE    := $(shell date +%FT%T%Z)
 GIT     := $(shell [ -d .git ] && git rev-parse --short HEAD)
 VERSION := v0.15.1
@@ -66,7 +66,7 @@ build-and-link:
 	cp ./dist/sake ~/.local/bin/sake
 
 gen-man:
-	go run -ldflags="-X 'github.com/alajmo/sake/cmd.buildMode=man' -X '${PACKAGE}/cmd.version=${VERSION}' -X '${PACKAGE}/cmd.commit=${GIT}' -X '${PACKAGE}/cmd.date=${DATE}'" ./main.go gen-docs
+	go run -ldflags="-X 'github.com/czuares/sake/cmd.buildMode=man' -X '${PACKAGE}/cmd.version=${VERSION}' -X '${PACKAGE}/cmd.commit=${GIT}' -X '${PACKAGE}/cmd.date=${DATE}'" ./main.go gen-docs
 
 release:
 	git tag ${VERSION} && git push origin ${VERSION}

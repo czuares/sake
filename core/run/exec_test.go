@@ -3,7 +3,7 @@ package run
 import (
 	"testing"
 
-	"github.com/alajmo/sake/core/test"
+	"github.com/czuares/sake/core/test"
 )
 
 func TestWorkDir(t *testing.T) {

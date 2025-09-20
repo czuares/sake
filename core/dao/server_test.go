@@ -3,7 +3,7 @@ package dao
 import (
 	"testing"
 
-	"github.com/alajmo/sake/core/test"
+	"github.com/czuares/sake/core/test"
 )
 
 func TestFilterServers(t *testing.T) {

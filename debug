@@ -6,7 +6,7 @@ import (
 	"os"
 	_ "net/http/pprof"
 
-	"github.com/alajmo/sake/cmd"
+	"github.com/czuares/sake/cmd"
 )
 
 func main() {

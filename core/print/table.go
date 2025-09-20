@@ -6,7 +6,7 @@ import (
 
 	"github.com/jedib0t/go-pretty/v6/table"
 
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core/dao"
 )
 
 func CreateTable(

@@ -10,8 +10,8 @@ import (
 
 	"github.com/jedib0t/go-pretty/v6/text"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
 )
 
 // TODO: Support csv,html,json,markdown

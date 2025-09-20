@@ -3,9 +3,9 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
-	"github.com/alajmo/sake/core/print"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
+	"github.com/czuares/sake/core/print"
 )
 
 var specHeaders = []string{"spec", "desc", "describe", "list_hosts", "order", "silent", "hidden", "strategy", "batch", "batch_p", "forks", "output", "print", "any_errors_fatal", "max_fail_percentage", "ignore_errors", "ignore_unreachable", "omit_empty", "report", "verbose", "confirm", "step"}

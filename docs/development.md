@@ -72,6 +72,6 @@ The following workflow is used for releasing a new `sake` version:
 Create SVG dependency graphs using graphviz and [goda](https://github.com/loov/goda).
 
 ```bash
-goda graph "github.com/alajmo/sake/..." | dot -Tsvg -o res/graph.svg
-goda graph "github.com/alajmo/sake:all" | dot -Tsvg -o res/graph-full.svg
+goda graph "github.com/czuares/sake/..." | dot -Tsvg -o res/graph.svg
+goda graph "github.com/czuares/sake:all" | dot -Tsvg -o res/graph-full.svg
 ```

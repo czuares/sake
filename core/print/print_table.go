@@ -7,8 +7,8 @@ import (
 
 	"github.com/jedib0t/go-pretty/v6/table"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
 )
 
 type PrintTableOptions struct {

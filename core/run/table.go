@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
 )
 
 type ServerTask struct {

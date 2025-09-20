@@ -8,7 +8,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/alajmo/sake/core"
+	"github.com/czuares/sake/core"
 )
 
 type Spec struct {

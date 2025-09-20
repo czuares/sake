@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
-	"github.com/alajmo/sake/core/run"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
+	"github.com/czuares/sake/core/run"
 )
 
 func execCmd(config *dao.Config, configErr *error) *cobra.Command {

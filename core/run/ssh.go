@@ -19,7 +19,7 @@ import (
 	"golang.org/x/crypto/ssh/knownhosts"
 	"golang.org/x/term"
 
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core/dao"
 )
 
 var ResetColor = "\033[0m"
