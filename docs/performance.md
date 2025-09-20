@@ -1,6 +1,6 @@
 # Performance
 
-These are benchmarks for sake. The implementation is in a separate repository at [github.com/alajmo/sake-performance](https://github.com/alajmo/sake-performance).
+These are benchmarks for sake. The implementation is in a separate repository at [github.com/czuares/sake-performance](https://github.com/czuares/sake-performance).
 
 sake is between 6 and 8 faster than pyinfra and between 4 and 18 times faster than Ansible, depending on the number of hosts.
 

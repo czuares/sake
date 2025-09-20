@@ -1,11 +1,8 @@
 module github.com/czuares/sake
 
-replace github.com/alajmo/sake => github.com/czuares/sake v0.16.0
-
 go 1.23
 
 require (
-	github.com/alajmo/sake v0.15.1
 	github.com/gobwas/glob v0.2.3
 	github.com/jedib0t/go-pretty/v6 v6.6.5
 	github.com/kevinburke/ssh_config v1.2.0
@@ -31,5 +28,4 @@ require (
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 )

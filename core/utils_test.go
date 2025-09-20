@@ -3,7 +3,7 @@ package core
 import (
 	"testing"
 
-	"github.com/alajmo/sake/core/test"
+	"github.com/czuares/sake/core/test"
 )
 
 func checkEqHost(t *testing.T, hostname string, defaultUser string, defaultPort uint16, wantedHost string, wantedUser string, wantedPort uint16) {

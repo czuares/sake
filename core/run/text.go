@@ -18,9 +18,9 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/term"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
-	"github.com/alajmo/sake/core/print"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
+	"github.com/czuares/sake/core/print"
 )
 
 func (run *Run) Text(dryRun bool) (dao.ReportData, error) {

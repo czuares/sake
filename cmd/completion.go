@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/alajmo/sake/core"
+	"github.com/czuares/sake/core"
 )
 
 func completionCmd() *cobra.Command {

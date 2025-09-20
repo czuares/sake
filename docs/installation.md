@@ -2,7 +2,7 @@
 
 `sake` is available on Linux and Mac:
 
-* Binaries are available on the [release](https://github.com/alajmo/sake/releases) page
+* Binaries are available on the [release](https://github.com/czuares/sake/releases) page
 
 * via cURL
   ```bash
@@ -32,7 +32,7 @@
 
 * via Go
   ```bash
-  go install github.com/alajmo/sake@latest
+  go install github.com/czuares/sake@latest
   ```
 
 ## Building From Source

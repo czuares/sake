@@ -11,7 +11,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/alajmo/sake/core"
+	"github.com/czuares/sake/core"
 )
 
 var REGISTER_REGEX = regexp.MustCompile("^[a-zA-Z_]+[a-zA-Z0-9_]*$")

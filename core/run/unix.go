@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/alajmo/sake/core/dao"
+	"github.com/czuares/sake/core/dao"
 	"golang.org/x/sys/unix"
 )
 

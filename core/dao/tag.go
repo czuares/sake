@@ -3,7 +3,7 @@ package dao
 import (
 	"strings"
 
-	"github.com/alajmo/sake/core"
+	"github.com/czuares/sake/core"
 )
 
 type Tag struct {

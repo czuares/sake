@@ -1,24 +1,24 @@
 <h1 align="center"><code>sake</code></h1>
 
 <div align="center">
-  <a href="https://github.com/alajmo/sake/releases">
+  <a href="https://github.com/czuares/sake/releases">
     <img src="https://img.shields.io/github/release-pre/alajmo/sake.svg" alt="version">
   </a>
 
-  <a href="https://github.com/alajmo/sake/actions">
-    <img src="https://github.com/alajmo/sake/workflows/build/badge.svg" alt="build status">
+  <a href="https://github.com/czuares/sake/actions">
+    <img src="https://github.com/czuares/sake/workflows/build/badge.svg" alt="build status">
   </a>
 
   <a href="https://img.shields.io/badge/license-MIT-green">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
   </a>
 
-  <a href="https://goreportcard.com/report/github.com/alajmo/sake">
-    <img src="https://goreportcard.com/badge/github.com/alajmo/sake" alt="Go Report Card">
+  <a href="https://goreportcard.com/report/github.com/czuares/sake">
+    <img src="https://goreportcard.com/badge/github.com/czuares/sake" alt="Go Report Card">
   </a>
 
-  <a href="https://pkg.go.dev/github.com/alajmo/sake">
-    <img src="https://pkg.go.dev/badge/github.com/alajmo/sake.svg" alt="reference">
+  <a href="https://pkg.go.dev/github.com/czuares/sake">
+    <img src="https://pkg.go.dev/badge/github.com/czuares/sake.svg" alt="reference">
   </a>
 </div>
 
@@ -28,7 +28,7 @@
 
 ![demo](res/output.gif)
 
-Interested in managing your git repositories in a similar way? Check out [mani](https://github.com/alajmo/mani)!
+Interested in managing your git repositories in a similar way? Check out [mani](https://github.com/czuares/mani)!
 
 ## Features
 
@@ -60,7 +60,7 @@ Sake is an MIT-licensed open source project with ongoing development. If you'd l
 
 `sake` is available on Linux and Mac.
 
-* Binaries are available on the [release](https://github.com/alajmo/sake/releases) page
+* Binaries are available on the [release](https://github.com/czuares/sake/releases) page
 
 * via cURL
   ```sh
@@ -90,7 +90,7 @@ Sake is an MIT-licensed open source project with ongoing development. If you'd l
 
 * Via Go
     ```sh
-    go install github.com/alajmo/sake@latest
+    go install github.com/czuares/sake@latest
     ```
 
 Auto-completion is available via `sake completion bash|zsh|fish` and man page via `sake gen`.

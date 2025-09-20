@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/alajmo/sake/core"
-	"github.com/alajmo/sake/core/dao"
-	"github.com/alajmo/sake/core/print"
+	"github.com/czuares/sake/core"
+	"github.com/czuares/sake/core/dao"
+	"github.com/czuares/sake/core/print"
 )
 
 func describeServersCmd(config *dao.Config, configErr *error) *cobra.Command {
